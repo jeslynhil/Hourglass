@@ -1,6 +1,6 @@
 # Hourglass
 
-Hourglass just like its name, is a prototype for an app that revolves around the time management of its users. The application will feature compatibilty with others on the device such as social media platforms -- where once clicking on a slected app, a timer will appear with an hourglass icon accrording to the run time of opening. Users will be able to customise features such as wanted apps to be utilised, limits, loops, and aesthetics such as a colour palette. This prototype was developed according to personal experinces, and aims to be accessible for users of all ages and abilties. 
+Where did all that time go? Hourglass just like its name, is a prototype for an app that revolves around the time management of screen-time for its users. The application will feature compatibilty with other installations on the device such as social media platforms -- where once clicking on a slected app, a timer will appear with an hourglass icon accrording to the run time of opening. Users will be able to customise features such as wanted apps to be utilised, limits, loops, and aesthetics such as a colour palette. This prototype was developed according to personal experinces, and aims to be accessible for users of all ages and abilties. 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -17,10 +17,16 @@ Hourglass just like its name, is a prototype for an app that revolves around the
 
 
 ## General Information
-- Hourglass is a prototype for an app that revolves around the time management of its users. The application will feature compatibilty with others on the device such as social media platforms -- where once clicking on a slected app, a timer will appear with an hourglass icon accrording to the run time of opening. Users will be able to customise features such as wanted apps to be utilised, limits, loops, and aesthetics such as a colour palette. This prototype aims to be accessible for users of all ages and abilties. 
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+Hourglass is a prototype for an app that revolves around the time management of its users. The application will feature compatibilty with others on the device such as social media platforms -- where once clicking on a slected app, a timer will appear with an hourglass icon accrording to the run time of opening. Users will be able to customise features such as wanted apps to be utilised, limits, loops, and aesthetic via a colour palette. This prototype aims to be accessible for users of all ages and abilties. 
+
+The prototype intends to assist in the time managememt of its users, ultimately combating procastination, and encouraging time efficiency.
+
+With a timer that is visible alongside the open selected app, this prototype has the purpose of assisting users who may have difficulty in managing time or extra support in doing so. For those who have a busy day ahead, the night owls who continuously scroll, or simply for a reminder. The project aims to be for everyone. 
+
+This specific idea was undertaken due to personal experinces. As somebody who sometimes struggles with managing time on screens, this prototype was created to further improve on "app limits" built-in iphones. Using this solves most typical problems, however a number of improvements were made:
+- A password to be entered and changed via email (difficult to bypass promised time)
+- Aesthetic customisation for users
+- Real-time visible timer
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
