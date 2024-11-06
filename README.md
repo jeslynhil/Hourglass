@@ -1,4 +1,4 @@
-Hourglass
+##Hourglass
 
 Where did all that time go? Hourglass just like its name, is a prototype for an app that revolves around the time management of screen-time for its users. The application will feature compatibilty with other installations on the device such as social media platforms - where once clicking on a slected app, a timer will appear with an hourglass icon accrording to the run time of opening. Users will be able to customise features such as wanted apps to be utilised, limits, loops, and aesthetics such as a colour palette. This prototype was developed according to personal experinces, and aims to be accessible for users of all ages and abilties. 
 
@@ -49,9 +49,12 @@ List the ready features here:
 
 ## Setup
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+- Download Xcode
+- Run simulator
+- Eter in code
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
-
+- 
 
 ## Usage
 How does one go about using it?
