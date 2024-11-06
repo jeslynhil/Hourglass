@@ -8,7 +8,6 @@ Where did all that time go? Hourglass just like its name, is a prototype for an 
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
 * [Sources](#sources)
@@ -51,11 +50,7 @@ List the ready features here:
 - Enter in code
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
 
-`write-your-code-here`
 
 
 ## Project Status
