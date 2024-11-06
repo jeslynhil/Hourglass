@@ -42,8 +42,7 @@ List the ready features here:
 
 ## Screenshots
 
-<!-- If you have screenshots you'd like to share, include them here. --> ![Screenshot 2024-11-06 at 1 22 30 pm](https://github.com/user-attachments/assets/68e0c912-ab5c-4e80-9896-7aa20afd17cb)
-
+<!-- If you have screenshots you'd like to share, include them here. -->![image](https://github.com/user-attachments/assets/0443fa2a-ce22-45ec-a68b-da8e683a29a9)
 
 
 
