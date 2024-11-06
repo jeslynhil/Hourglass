@@ -6,7 +6,6 @@ Where did all that time go? Hourglass just like its name, is a prototype for an 
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
@@ -38,9 +37,6 @@ List the ready features here:
 - Clear errors and occasional assists e.g. "fix"
 
 
-## Screenshots
-
-<!-- If you have screenshots you'd like to share, include them here. -->![image](https://github.com/user-attachments/assets/0443fa2a-ce22-45ec-a68b-da8e683a29a9)
 
 
 
