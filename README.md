@@ -31,16 +31,13 @@ This specific idea was undertaken due to personal experinces. As somebody who so
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
+- X Code 16
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Live simulator 
+- iphone suulation of prototype
+- Clear errors and occasional assists e.g. "fix"
 
 
 ## Screenshots
