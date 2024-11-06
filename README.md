@@ -41,8 +41,9 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. --> file:///var/folders/6z/dmw63kpx2hx9dfrtz5p6my_h0000gn/T/simulator_screenshot_06E65F33-EEBC-4238-AA04-1A5A5AA17259.png
+
+<!-- If you have screenshots you'd like to share, include them here. --> ![Uploading image.png…]()
+
 
 
 ## Setup
