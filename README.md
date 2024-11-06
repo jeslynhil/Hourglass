@@ -12,7 +12,7 @@ Where did all that time go? Hourglass just like its name, is a prototype for an 
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
+* [Sources](#sources)
 <!-- * [License](#license) -->
 
 
@@ -65,7 +65,7 @@ Project is:  _complete_
 ## Room for Improvement (future developement)
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 - Real app examples running
-- Apps syncing with emai and availble apps to sync 
+- Apps syncing with email and availble apps to sync 
 
 
 
@@ -74,10 +74,4 @@ This project was inspired by my personal experince of using Apple's screentime a
 
 
 
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Sources
