@@ -9,12 +9,13 @@ Where did all that time go? Hourglass just like its name, is a prototype for an 
 * [Setup](#setup)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
-* [Sources](#sources)
+* [Sources of prototype](#sources of prototype)
+* [Appendix](#appendix) 
 <!-- * [License](#license) -->
 
 
 ## General Information
-Hourglass is a prototype for an app that revolves around the time management of its users. The application will feature compatibilty with others on the device such as social media platforms -- where once clicking on a slected app, a timer will appear with an hourglass icon accrording to the run time of opening. Users will be able to customise features such as wanted apps to be utilised, limits, loops, and aesthetic via a colour palette. This prototype aims to be accessible for users of all ages and abilties. 
+Hourglass is a prototype for an app that revolves around the time management of its users. The application will feature compatibility with others on the device such as social media platforms -- where once clicking on a slected app, a timer will appear with an hourglass icon according to the run time of opening. Users will be able to customise features such as wanted apps to be utilised, limits, loops, and aesthetic via a colour palette. This prototype aims to be accessible for users of all ages and abilties. 
 
 The prototype intends to assist in the time managememt of its users, ultimately combating procastination, and encouraging time efficiency.
 
@@ -52,10 +53,6 @@ List the ready features here:
 ## Project Status
 Project is:  _complete_ 
 
-## Room for Improvement (future developement)
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-- Real app examples running
-- Apps syncing with email and availble apps to sync 
 
 
 
@@ -63,5 +60,91 @@ Include areas you believe need improvement / could be improved. Also add TODOs f
 This project was inspired by my personal experince of using Apple's screentime app limits feature. Originally great for exam periods and stud purposes, after learning quickly about bypassing it became easy to ignore time limits. I would like to acknowledge Apple and its screentime feature in setting up the idea as a framework to further build upon with my ideas. 
 
 
+## Sources of prototype
+Image Color Picker. (2024). RGB Color Picker Online. Image Color Picker. https://www.imgcolorpicker.com/rgb-color-picker 
 
-## Sources
+
+
+
+## Appendix
+Input: "Could you please help me create a basic SwiftUI app with a password check?"
+Output: import SwiftUI
+
+@main
+struct HourglassApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView() // Entry point for your app
+        }
+    }
+}
+
+struct ContentView: View {
+    @State private var showPasswordPrompt = false
+    @State private var isAuthenticated = false
+    @State private var passwordInput = ""
+
+    var body: some View {
+        ZStack {
+            Color.white.ignoresSafeArea() // Placeholder background, customize as needed
+
+            if isAuthenticated {
+                MainMenuView() // Main menu view after authentication
+            } else {
+                Text("Welcome to Hourglass")
+                    .font(.largeTitle)
+                    .padding()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                            showPasswordPrompt = true
+                        }
+                    }
+            }
+        }
+        .alert("Enter Password", isPresented: $showPasswordPrompt, actions: {
+            TextField("Password", text: $passwordInput)
+            Button("Submit") {
+                if passwordInput == "uts123" { // Your defined password
+                    isAuthenticated = true
+                    showPasswordPrompt = false
+                } else {
+                    passwordInput = "" // Clear input on incorrect entry
+                }
+            }
+            Button("Cancel", role: .cancel) {
+                showPasswordPrompt = false
+            }
+        }, message: {
+            Text("Please enter the password to proceed.")
+        })
+    }
+}
+
+struct MainMenuView: View {
+    var body: some View {
+        VStack {
+            Text("Main Menu")
+                .font(.largeTitle)
+                .padding()
+            // Add buttons and customization options here
+        }
+    }
+}
+
+Input: ForEach(MenuOption.allCases, id: \.self) { option in giving error
+Output: enum MenuOption: String, CaseIterable {
+    case apps = "Apps"
+    case limits = "Limits"
+    case loops = "Loops"
+    case customisation = "Customisation"
+}
+Input: errors in my code what's the basic layout it should look like? Am i doing it in the wrong order?
+Output: @main
+struct YourAppName: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+
