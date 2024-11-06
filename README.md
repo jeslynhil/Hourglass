@@ -10,7 +10,6 @@ Where did all that time go? Hourglass just like its name, is a prototype for an 
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Sources](#sources)
 <!-- * [License](#license) -->
